@@ -475,6 +475,19 @@ small {
     }
 }
 
+.section__light-artwork {
+    background-image: url(./assets/icon-maple-leaf-top.svg), url(./assets/icon-maple-leaf-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 600px, 600px;
+    background-position: 160% 100%, 140% 100%;
+}
+@media(max-width:767px) {
+ .section__light-artwork {
+    background-size: 320px, 320px;
+    background-position: 170% 120%, 140% 120%;
+}   
+    
+}
 
 /* buttons */
 a.button-fog {
