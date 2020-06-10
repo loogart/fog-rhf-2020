@@ -271,6 +271,13 @@ small {
     background-color: white;
     margin-bottom: 20px;
     height: 100%;
+    box-shadow:
+        0 2.5px 2.2px rgba(0, 0, 0, 0.006),
+        0 6px 5.3px rgba(0, 0, 0, 0.008),
+        0 11.3px 10px rgba(0, 0, 0, 0.01),
+        0 20.1px 17.9px rgba(0, 0, 0, 0.012),
+        0 37.6px 33.4px rgba(0, 0, 0, 0.014),
+        0 90px 80px rgba(0, 0, 0, 0.02);
 }
 
 .card-text {
@@ -481,12 +488,13 @@ small {
     background-size: 600px, 600px;
     background-position: 160% 100%, 140% 100%;
 }
+
 @media(max-width:767px) {
- .section__light-artwork {
-    background-size: 320px, 320px;
-    background-position: 170% 120%, 140% 120%;
-}   
-    
+    .section__light-artwork {
+        background-size: 320px, 320px;
+        background-position: 170% 120%, 140% 120%;
+    }
+
 }
 
 /* buttons */
