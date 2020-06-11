@@ -111,7 +111,6 @@ hr.footnote {
 
 small {
     font-size: 12px;
-    color: #BADFF0 !important;
 }
 
 .cont {
@@ -136,12 +135,20 @@ small {
     background-color: #324751;
 }
 
+a:hover{
+    opacity: .7;
+}
+
 .section__dark h1,
 .section__dark h2,
 .section__dark h3,
 .section__dark h4,
 .section__dark p {
     color: white !important;
+}
+
+.section__dark small, .section__dark a:not(.button-fog){
+    color: #BADFF0!important;
 }
 
 .section__light {
@@ -461,7 +468,7 @@ small {
     .section__dark-artwork {
         background-image: url(assets/artwork_section1_hero.svg);
         background-repeat: no-repeat;
-        background-size: 500px;
+        background-size: 420px;
         background-position: 160% 50%;
     }
 
@@ -470,14 +477,14 @@ small {
 @media(min-width:992px) {
     .section__dark-artwork {
         background-size: 440px;
-        background-position: 110% 50%;
+        background-position: 120% 50%;
     }
 }
 
 
 @media(min-width:1400px) {
     .section__dark-artwork {
-        background-size: 669px;
+        background-size: 569px;
         background-position: 110% 50%;
     }
 }
